@@ -33,15 +33,15 @@ framework: {
       Lorem Ipsum
     </q-card-title>
     <q-card-main>
-      <q-transition
+      <transition
         appear
-        enter="fadeIn"
-        leave="fadeOut"
+        enter-active-class="animated fadeIn"
+        leave-active-class="animated fadeOut"
       >
         <div v-show="showSimulatedReturnData">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel magna eu risus laoreet tristique. Nulla ut fermentum elit, nec consequat augue. Morbi et dolor nec metus tincidunt pellentesque. Nullam non semper ante. Fusce pellentesque sagittis felis quis porta. Aenean condimentum neque sed erat suscipit malesuada. Nulla eget rhoncus enim. Duis dictum interdum eros.
         </div>
-      </q-transition>
+      </transition>
     </q-card-main>
 
     <!--
